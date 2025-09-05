@@ -1,17 +1,10 @@
 {
   "version": 2,
   "name": "niharika-portfolio",
+  "public": true,
   "builds": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "styles.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "script.js",
+      "src": "**",
       "use": "@vercel/static"
     }
   ],
